@@ -1,0 +1,44 @@
+.Welcome {
+    color: darkblue;
+}
+
+.information {
+    color: crimson;
+    font-weight: bold;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+.row:after {
+    display: table;
+    clear: both;
+  }
+
+  .hero {
+    background-color: darkgrey;
+    height: 5vh;
+    width: 100vw;
+  }
+
+  .menu {
+    position: absolute;
+    margin: 15px;
+    right: 15%;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .title {
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    left: 10%;
+    padding: 7px;
+  }
