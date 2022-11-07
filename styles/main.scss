@@ -1,0 +1,73 @@
+@import "./vendor/normalize";
+@import "./partials/colors";
+@import "./partials/mixins";
+@import "./partials/typography";
+
+body {
+  .hero {
+  background-color: $bg-nav;
+  height: 5vh;
+  width: 100vw;
+  nav {
+      display: inline;
+        position: absolute;
+        margin: 15px;
+        right: 15%;
+        font-weight: bold;
+        font-size: larger;
+      a {
+          color: $font-light;
+        }
+      }
+    }
+  }
+
+.hero header {
+  color: #0000ff;
+  display: inline;
+}
+
+title {
+  font-family: $font-primary;
+}
+
+.Welcome {
+  color: $font-dark;
+  text-align: center;
+}
+
+section {
+  font-family: $font-primary;
+  article {
+    font-family: $font-third;
+    color: $fonts-caution;
+  }
+}
+
+div {
+  .column {
+    font-family: $font-secondary;
+    float: left;
+    width: 50%;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+footer {
+    padding: 1rem;
+    button {
+      @include primary-btn();
+    }
+  }
+
+
+
+
+// media stuff
+  @media (min-width: 1024px) {
+    .hero {
+      background-color: $font-light;
+    }
+}
